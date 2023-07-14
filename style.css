@@ -104,13 +104,10 @@ header , main{
   animation: animatebottom 2s linear;
 }
 .hero .chip {
-  
-  /* justify-content: left; */
-  padding: 0 25px;
+    padding: 0 25px;
   height: 50px;
   font-size: 20px;
   line-height: 50px;
-  /* border-top-right-radius: 25px; */
   border-radius: 25px;
   background-color: #f1f1f1;
   color: black;
@@ -234,7 +231,6 @@ ul li a:hover {
 main .head2 {
   display: flex;
   align-items: center;
-  /* margin: 20px; */
   color: white;
   margin-bottom: 50px;
 }
@@ -259,11 +255,7 @@ main .head2 {
 }
 
 #scroll-text {
-  /* animation properties */
-  /* -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-     */
+
   -moz-animation: my-animation 20s linear infinite;
   -webkit-animation: my-animation 20s linear infinite;
   animation: my-animation 20s linear infinite;
@@ -347,7 +339,6 @@ main .head2 {
 .work img {
   width: 100px;
   height: 100px;
-  /* margin-bottom: 20px; */
 }
 
 .cards span {
@@ -446,7 +437,6 @@ footer .last {
   height: 50px;
   font-size: 20px;
   line-height: 50px;
-  /* border-top-right-radius: 25px; */
   border-radius: 25px;
   background-color: #f1f1f1;
   color: black;
@@ -798,5 +788,122 @@ textarea::placeholder {
 
   .submit {
     font-size: 1rem;
+  }
+}
+
+
+@media only screen and (max-width:300px) {
+  ul {
+    left: -10%;
+    font-size: 1rem;
+    padding: 0px;
+  }
+
+  .sm-icons {
+    top: 28%;
+    left: 100%;
+  }
+  
+  .flower {
+    top: 23%;
+    left: 100%;
+  }
+  #scroll-container{
+    width: 150%;
+    font-size: 1rem;
+   
+  }
+  .head2{
+    width: 150%;
+  }
+  .hero p {
+    font-size: 0.5rem;
+  }
+ 
+  .hero {
+    margin-top: 150px;
+  }
+
+  .hero h1 {
+    font-size: 1rem;
+  }
+
+  .front .hover-to-flip {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+
+  .cards {
+    padding: 20px;
+  }
+
+  .cards:hover {
+    transform: scale(1.1);
+    transition: 1s linear;
+  }
+
+  .container {
+    grid-template-columns: auto;
+  }
+  .container .each-page{
+    margin-left: 70px;
+  }
+  footer{
+    position: relative;
+    margin-left: 70px;
+
+  }
+.up{
+  position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+  .up img {
+    width: 35px;
+    height: 35px;
+    
+    
+  }
+
+  .hover-to-flip {
+    font-size: 1.5rem;
+  }
+  .cards{
+    margin-left: 70px;
+
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .contact input {
+    width: 40%;
+  }
+
+  .submit {
+    margin-left: 22%;
+  }
+
+  .last .chip {
+    font-size: 0.2rem;
+  }
+
+  .contact .last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .last .mail img {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+  }
+
+  .submit {
+    font-size: 0.8rem;
   }
 }

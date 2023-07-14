@@ -12,13 +12,7 @@ function validation() {
   }
 
 
-  // let myear=1999;
-  // let d=new Date();
-  // let year=d.getFullYear();
-  // let age=year-myear;
-  // document.getElementById("demoo").innerHTML=`MY name is ula ali and Im ${age} Years old,gratuated from al-nahrain university ,IT engineering 1 year experience<br> in electronics sales and admirer of programming
-  // `;
-
+ 
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
     for (var i = 0; i < reveals.length; i++) {
